@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- 서버의 내용을 수정,삭제 등을 할 경우에는 메소드를 post로 해주기! -->
+    <form action="http://localhost:3000/process_create" method="post">
+      <p><input type="text" name="title"></p>
+      <p>
+        <textarea name="description"></textarea>
+      </p>
+      <p>
+        <input type="submit">
+      </p>
+    </form>
+  </body>
+</html>
